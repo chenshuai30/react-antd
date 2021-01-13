@@ -1,0 +1,28 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+          "useBuiltIns": "entry",
+          "corejs": 2,
+          "targets": {
+              "browsers": ["last 20 versions", "ie >= 9", "> 1%"]
+          }
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    [
+      "@babel/plugin-transform-runtime",
+      {
+          "corejs": 2
+      }
+    ],
+    "@babel/proposal-object-rest-spread",
+    "@babel/syntax-jsx",
+    "@babel/syntax-dynamic-import",
+    "@babel/proposal-class-properties",
+    ["babel-plugin-import", {"libraryName": "antd", "style": true}]
+  ]
+}

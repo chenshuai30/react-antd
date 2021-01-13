@@ -1,0 +1,73 @@
+{
+  "name": "cms",
+  "version": "1.0.0",
+  "description": "CMS管理系统",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --hot --mode development --open --config webpack.dev.js",
+    "build": "webpack --mode production --config webpack.prod.js",
+    "dll": "webpack --mode production --config webpack.dll.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.rewissen.com/web/pcweb/CMS.git"
+  },
+  "keywords": [
+    "cms",
+    "react",
+    "react-dom",
+    "react-router",
+    "antd-design",
+    "wangedit"
+  ],
+  "author": "chenzhijun",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime-corejs2": "^7.12.5",
+    "antd": "3.x.x",
+    "babel-polyfill": "^6.26.0",
+    "core-js": "2.x.x",
+    "react": "16.9.x",
+    "react-dom": "16.9.x",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "wangeditor": "^4.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@babel/runtime": "^7.12.5",
+    "autoprefixer": "^10.2.1",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-import": "^1.13.3",
+    "clean-webpack-plugin": "^3.0.0",
+    "compression-webpack-plugin": "6.x.x",
+    "copy-webpack-plugin": "6.x.x",
+    "css-loader": "^5.0.1",
+    "eslint": "^7.17.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.1",
+    "less": "3.x.x",
+    "less-loader": "6.x.x",
+    "mini-css-extract-plugin": "0.x.x",
+    "postcss-loader": "^4.1.0",
+    "postcss-preset-env": "^6.7.0",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "4.x.x",
+    "url-loader": "^4.1.1",
+    "webpack": "4.x.x",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.1",
+    "webpack-merge": "^5.7.3"
+  }
+}
